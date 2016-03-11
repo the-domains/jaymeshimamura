@@ -1,28 +1,40 @@
-name: jaymeshimamura
-favicon: null
-layout_spectrum: 0.2134129200130701
-typography_spectrum: 0.8550111977383494
 cta:
-  domain: null
   bucket: null
   version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+  domain: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0
+  brandStrength: 0.9067891545128077
+  lightness: 0
   brandColors:
     - '#E0FBFC'
     - '#C2DFE3'
     - '#9DB4C0'
     - '#5C6B73'
     - '#253237'
-  brandStrength: 0.9067891545128077
-  lightness: 0.5517847973387688
-  saturation: 0.7179422935005277
-  rhythmicContrast: 0.6331606509629637
-purpose: []
+  rhythmicContrast: 0
+typography_spectrum: 1
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: jaymeshimamura
